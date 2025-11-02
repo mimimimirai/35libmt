@@ -6,7 +6,7 @@
 /*   By: mirai <mirai@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/13 20:26:54 by alelievr          #+#    #+#             */
-/*   Updated: 2025/10/22 09:52:46 by mirai            ###   ########.fr       */
+/*   Updated: 2025/10/23 01:18:07 by mirai            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -273,7 +273,7 @@ static void	display_part(void) {
 					" > x0.5:"COLOR_SPEED_05"\u25CF"COLOR_CLEAR
 					" < x0.5:"COLOR_SPEED_0"\u25CF"COLOR_CLEAR
 					"\n");
-		printf(COLOR_CLEAR"                      First part\n");
+		printf(COLOR_CLEAR"                      Part1\n");
 		printf(COLOR_CLEAR"═══════════════════════════════════════════════════════════════\n"COLOR_CLEAR);
 	}
 
@@ -282,7 +282,7 @@ static void	display_part(void) {
 				"your function or not to,\na color code will tell you if your "
 				"function is protected/not BUT stay coherent !\n"COLOR_PROTECTED"[\U0001F6E1 ]"COLOR_INFO
 				" --> protected\n"COLOR_NPROTECTED"[\U0001F4A5 ]"COLOR_INFO" --> not protected"COLOR_CLEAR);
-		printf(COLOR_CLEAR"\n                     Second part\n");
+		printf(COLOR_CLEAR"\n                     Part2\n");
 		printf(COLOR_CLEAR"═══════════════════════════════════════════════════════════════\n"COLOR_CLEAR);
 	}
 

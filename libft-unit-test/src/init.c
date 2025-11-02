@@ -6,7 +6,7 @@
 /*   By: mirai <mirai@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/17 17:30:13 by alelievr          #+#    #+#             */
-/*   Updated: 2025/10/22 22:59:41 by mirai            ###   ########.fr       */
+/*   Updated: 2025/10/23 01:39:31 by mirai            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,6 +66,7 @@ t_libft_test	fun_test_table[] = {
 	{"ft_split", test_ft_split, 2, 1}, 
 	{"ft_itoa", test_ft_itoa, 2, 1},
 	{"ft_strmapi", test_ft_strmapi, 2, 1},
+	{"ft_striteri", test_ft_striteri, 2, 1},
 	{"ft_putchar_fd", test_ft_putchar_fd, 2, 1},
 	{"ft_putstr_fd", test_ft_putstr_fd, 2, 1},
 	{"ft_putendl_fd", test_ft_putendl_fd, 2, 1},
@@ -92,7 +93,6 @@ t_libft_test	fun_test_table[] = {
 	{"ft_strdel", test_ft_strdel, 3, 0},
 	{"ft_strclr", test_ft_strclr, 3, 0},
 	{"ft_striter", test_ft_striter, 3, 0},
-	{"ft_striteri", test_ft_striteri, 3, 0},
 	{"ft_strmap", test_ft_strmap, 3, 0},
 	{"ft_strequ", test_ft_strequ, 3, 0},
 	{"ft_strnequ", test_ft_strnequ, 3, 0},

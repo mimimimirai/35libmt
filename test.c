@@ -32,7 +32,7 @@
 #define ATOI ft_atoi
 #define CALLOC ft_calloc
 #define STRDUP ft_strdup
-#define PART2 part2_user
+#define PART2 part2_ft
 #else
 #define ISALPHA isalpha
 #define ISDIGIT isdigit
@@ -60,7 +60,7 @@
 #define PART2 part2_expected
 #endif
 
-void	part2_user(void);
+void	part2_ft(void);
 void	part2_expected(void);
 char	mapi_func(unsigned int i, char c);
 
@@ -640,7 +640,7 @@ void	iteri_func(unsigned int i, char *c)
 }
 
 #ifdef FT
-void	part2_user(void)
+void	part2_ft(void)
 {
 	char *res;
 	printf("=====SUBSTR=====\n");
